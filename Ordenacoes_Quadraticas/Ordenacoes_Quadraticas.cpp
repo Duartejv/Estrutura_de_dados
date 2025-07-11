@@ -131,6 +131,7 @@ int main(){
         ms_Insertion = ms_Insertion - 1;
         ns_Selection = ns_Selection - 1000000;   
         ns_Insertion = ns_Insertion - 1000000;
+        cout<<"\n\nExecucao muito rapida! para uma melhor precisao escolha um arquivo maior!";
     }
     cout <<"\n\nTempo de execucao do Selection Sort: "<< ms_Selection<<" ms";
     cout <<"\nEm nanosegundos: "<<ns_Selection<<" ns";
