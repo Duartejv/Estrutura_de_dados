@@ -133,9 +133,9 @@ int main(){
         ns_Insertion = ns_Insertion - 1000000;
     }
     cout <<"\n\nTempo de execucao do Selection Sort: "<< ms_Selection<<" ms";
-    cout <<"\nEm segundos: "<<ns_Selection<<" ns";
+    cout <<"\nEm nanosegundos: "<<ns_Selection<<" ns";
     cout <<"\n\nTempo de execucao do Insertion Sort: "<< ms_Insertion<<" ms";
-    cout <<"\nEm segundos: "<<ns_Insertion<<" ns";
+    cout <<"\nEm nanosegundos: "<<ns_Insertion<<" ns";
     delete[] lista;
     delete[] lista2;
     return 1;
