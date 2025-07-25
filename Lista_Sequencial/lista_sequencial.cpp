@@ -83,24 +83,20 @@ int main(){
     cout<<"6-Remover um valor da lista\n";
     cout<<"7-Sair\n";
     cin>>escolha;
+    system("cls");
       switch (escolha)
       {
       case 1:
-        system("cls");
         vazia(); break;
       case 2:
-        system("cls");
         cheia(); break;
       case 3:
-        system("cls");
         cout<<"Tamanho: "<<tam_atual; break;
       case 4:
-        system("cls");
         cout<<"Obter o valor de qual posicao? ";
         cin>>pos;
         obter_modificar(pos); break;
       case 5:
-        system("cls");
         if(tam_atual == tam_max){
           cheia();
         }
@@ -112,16 +108,13 @@ int main(){
         cout<<"Valor inserido com sucesso!";
         break;
       case 6:
-        system("cls");
         cout<<"Posicao para remover: ";
         cin>>pos;
         remover(pos); 
         cout<<"Remocao feita com sucesso"; break;
       case 7:
-        system("cls");
         cout<<"Saindo..."; break;
       default:
-        system("cls");
         cout<<"Escolha uma opcao valida"; break;
       }
     cout<<"\n\n\n\n";
